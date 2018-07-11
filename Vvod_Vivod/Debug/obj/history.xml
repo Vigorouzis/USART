@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Vvod_Vivod\stm_lib\inc -I..\..\..\workspace -I..\..\..\workspace\Vvod_Vivod\cmsis -I..\..\..\workspace\Vvod_Vivod\stm_lib -I..\..\..\workspace\Vvod_Vivod -I..\..\..\workspace\Vvod_Vivod\cmsis_boot">
+      <target file="stm32f10x_rcc.o" lastModified="1644192f538">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="16440dcf81e"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1644192f3ee">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="16440dcf830"/>
+      </target>
+      <target file="misc.o" lastModified="1644192f69e">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="16441872d70"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1644192f364">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="16440dcf883"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1644192f5af">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="16440dd2cd0"/>
+      </target>
+      <target file="main.o" lastModified="16441959fe1">
+         <source file="..\..\..\main.c" lastModified="16441959bd4"/>
+      </target>
+      <target file="syscalls.o" lastModified="1644192f640">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16440dcedc9"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1644192f456">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="16440dcffd2"/>
+      </target>
+   </processor>
+</history>
